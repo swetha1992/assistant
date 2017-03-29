@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Manager Login </title>
+</head>
+<body>
+
+<h1>Welcome to Home Manager.</h1>
+
+
+<form method="post">
+<p>
+<label>User Name :
+<input type="text" name="username" value="{{username}}">
+</label>
+</p>
+
+<p>
+<label>Password :
+<input type="Password" name="Password" value={{password}}>
+</label>
+</p>
+
+<p>
+<input type="submit" name="Login" action="/">
+
+<div>
+	{{error}}
+</div>
+</form>
+<form action="/SignUp">
+<p>Don't have a account?!</p>
+	<!--<a onclick="">Create Account</a> -->
+	<input type="submit" name="Create account" action="/SignUp">
+</form>
+
+	
+
+
+</body>
+</html>

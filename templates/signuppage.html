@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form method="post">
+<p>
+<label>First Name :
+<input type="text" name="firstname" value="{{firstname}}">
+</label>
+</p>
+
+<p>
+<label>Last Name :
+<input type="text" name="lastname" value="{{lastname}}">
+</label>
+</p>
+
+<p>
+<label>Birthdate :
+<input type="text" name="birthdate" value="{{birthdate}}">
+</label>
+</p>
+
+<p>
+<label> email :
+<input type="text" name="email" value="{{email}}">
+</label>
+</p>
+
+<p>
+<label>choose a user name :
+<input type="text" name="username" value={{username}}>
+</label>
+</p>
+
+<p>
+<label>password :
+<input type="password" name="password">
+</label>
+</p>
+
+<p>
+<label>confirm password :
+<input type="text" name="confirmpassword">
+</label>
+</p>
+
+
+<div>
+	{{error}}
+</div>
+
+<input type="submit" name="SignUp" action="/">
+
+</form>
+
+</body>
+</html>
